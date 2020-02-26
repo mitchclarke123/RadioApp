@@ -1,0 +1,8 @@
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\RadioApp.deps.json
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\RadioApp.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\RadioApp.pdb
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.csprojAssemblyReference.cache
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.AssemblyInfoInputs.cache
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.AssemblyInfo.cs
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.pdb
