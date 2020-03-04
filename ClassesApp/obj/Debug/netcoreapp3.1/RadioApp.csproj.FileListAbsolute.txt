@@ -6,3 +6,6 @@ C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExerc
 C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.AssemblyInfo.cs
 C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.dll
 C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.pdb
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\Interop.WMPLib.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\Interop.WMPLib.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\RadioApp.csproj.ResolveComReference.cache

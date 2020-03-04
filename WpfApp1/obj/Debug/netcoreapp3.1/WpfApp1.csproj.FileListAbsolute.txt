@@ -38,3 +38,12 @@ C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExerc
 C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.CopyComplete
 C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.dll
 C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.pdb
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.Controls.UI.Dialogs.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.Controls.UI.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.Controls.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.DirectX.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.MediaFramework.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.Shared.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.Tools.dll
+C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 5\ClassesExercises\WpfApp1\bin\Debug\netcoreapp3.1\VisioForge.Types.dll

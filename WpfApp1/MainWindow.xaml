@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="439" Width="796">
+        Title="MainWindow" Height="439" Width="796" Closing=" Window_Closing">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="radio interface.jpeg" Stretch="Fill"/>
@@ -16,15 +16,15 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="Switch" Content="Off" HorizontalAlignment="Left" Margin="234,0,0,0" VerticalAlignment="Center" Height="47" Width="123" Click="offButton" Background="#FFFF0A0A" Grid.Column="1"/>
         <Button x:Name="On" Content="On" HorizontalAlignment="Left" Margin="39,0,0,0" VerticalAlignment="Center" Height="47" Width="123" Click="onButton" Background="#FFFF0A0A"/>
-        <TextBox x:Name="radioStatus" HorizontalAlignment="Left" Margin="307,10,0,0" Text="Radio is off" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="163" TextChanged="RadioOff_TextChanged" Grid.ColumnSpan="2" FontSize="30"/>
-        <Button Content="Channel 1" HorizontalAlignment="Left" Margin="86,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_1" Background="#FFFF0A0A"/>
-        <Button Content="Channel 2" HorizontalAlignment="Left" Margin="261,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_2" Background="#FFFF0A0A"/>
-        <Button Content="Channel 3" HorizontalAlignment="Left" Margin="49,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_3" Grid.Column="1" Background="#FFFF0A0A"/>
-        <Button Content="Channel 4" HorizontalAlignment="Left" Margin="221,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_4" Grid.Column="1" Background="#FFFF0A0A"/>
-        <Button x:Name="upVolume" Content="increase volume" Margin="75,10,211,359" Click="upVolume"/>
-        <Button x:Name="downVolume" Content="decrease volume" Margin="75,69,211,300" Click="downVolume"/>
-
-
+        <TextBox x:Name="radioStatus" HorizontalAlignment="Left" Margin="307,10,0,0" Text="Radio off" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="163" Grid.ColumnSpan="2" FontSize="30"/>
+        <Button x:Name="Channel1" Content="Channel 1" HorizontalAlignment="Left" Margin="86,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_1" Background="#FFFF0A0A"/>
+        <Button x:Name="channel2" Content="Channel 2" HorizontalAlignment="Left" Margin="261,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_2" Background="#FFFF0A0A"/>
+        <Button x:Name="channel3" Content="Channel 3" HorizontalAlignment="Left" Margin="49,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_3" Grid.Column="1" Background="#FFFF0A0A"/>
+        <Button x:Name="channel4" Content="Channel 4" HorizontalAlignment="Left" Margin="221,317,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_4" Grid.Column="1" Background="#FFFF0A0A"/>
+        <TextBox x:Name="volumeStatus" Text="0" TextWrapping="Wrap" Margin="199,25,108,344" FontSize="30" TextChanged="volumeStatus_TextChanged"/>
+        <Button x:Name="volumeUp" Content="+Volume" Margin="58,6,256,375" Click="volumeUp_Click"/>
+        <Button x:Name="volumeDown" Content="-Volume" Margin="58,59,256,321" Click="volumeDown_Click"/>
+        <MediaElement Height="120" Margin="105,39,11,0" LoadedBehavior="Manual" Name="MusicPlayer" VerticalAlignment="Top" Grid.Column="1" />
 
     </Grid>
 </Window>

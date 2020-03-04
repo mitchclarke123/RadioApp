@@ -20,6 +20,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\TECH-W129birm\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+    <PkgVisioForge_DotNet_Core_TRIAL Condition=" '$(PkgVisioForge_DotNet_Core_TRIAL)' == '' ">C:\Users\TECH-W129birm\.nuget\packages\visioforge.dotnet.core.trial\11.4.3</PkgVisioForge_DotNet_Core_TRIAL>
   </PropertyGroup>
 </Project>

@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using ClassesApp;
+using RadioApp;
 namespace ClassesTests
 {
     public class RadioOnTests
@@ -45,12 +45,36 @@ namespace ClassesTests
             Assert.AreEqual("Playing channel 4", message);
             
         }
-
         [Test]
         public void TurnOffTest()
         {
             _radio.TurnOff();
-            Assert.AreEqual("Radio is off", _radio.Play());
+            Assert.AreEqual("Radio off", _radio.Play());
+        }
+
+
+
+        [TestCase(1)]
+        [TestCase(2)]
+        [TestCase(3)]
+        [TestCase(4)]
+        public void ChangeToValidVolumeTest(int newVolume)
+        {
+            _radio.Volume = newVolume;
+            Assert.AreEqual(newVolume, _radio.Volume);
+        }
+
+        [TestCase(-1)]
+        [TestCase(1000)]
+        [TestCase(11)]
+        public void ChangeToInvalidVolumeTest(int newVolume)
+        {
+            // arrange
+            _radio.Volume = 5;
+            // act
+            _radio.Volume = newVolume;
+            // assert
+            Assert.AreEqual(5, _radio.Volume);
         }
     }
 }
